@@ -2,6 +2,7 @@
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://berserker-app.herokuapp.com/",
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.2.0",
