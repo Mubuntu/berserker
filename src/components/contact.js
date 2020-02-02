@@ -34,7 +34,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                   <a href="https://www.facebook.com/dietistritchiemaes/"> <i className="fa fa-facebook-square" aria-hidden="true"/></a>                
+                   <a id='link' href="https://www.facebook.com/dietistritchiemaes/"> <i className="fa fa-facebook-square" aria-hidden="true"/></a>                
                        {/* https://www.facebook.com/dietistritchiemaes/ */}
                   </ListItemContent>
                 </ListItem>

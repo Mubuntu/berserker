@@ -115,3 +115,6 @@
   padding: 8px;
 }
 
+#link a, a:visited, a:hover, a:active {
+  color: inherit;
+}
