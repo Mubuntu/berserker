@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-
+import ritchie from '../img/ritchie.jpg'
 
 class Resume extends Component {
   render() {
@@ -13,23 +13,23 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src={ritchie}
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{height: '200px', position: 'relative', top: '55px', right: '205px', borderRadius: '100px'}}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
+            <h2 style={{paddingTop: '2em'}}>Ritchie Maes</h2>
+            <h4 style={{color: 'grey'}}>Diëtist</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>1 bramestraat 18 4413EX Krabbendijke</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>+31 493 735 830</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <p>dietistritchiemaes@outlook.com</p>
             <h5>Web</h5>
             <p>mywebsite.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -39,37 +39,35 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2013}
+              endYear={2016}
+              schoolName="AP Hogeschool Antwerpen"
+              schoolDescription="bachelor, Voeding en dietiek (Nutrition and dietetics)"
                />
-
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
-                <hr style={{borderTop: '3px solid #e22947'}} />
 
               <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-              />
+              startYear={2017}
+              endYear={2017}
+              jobName="Shop Manager bij Workout"
+              jobDescription=""              />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
+                startYear={2016}
+                endYear={"heden"}
+                jobName="Geregistreerd diëtist"
+                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                />
+
+                <Experience
+                startYear={2017}
+                endYear={2018}
+                jobName="food technologist & QC"
                 jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
+              {/* <h2>Skills</h2>
               <Skills
                 skill="javascript"
                 progress={100}
@@ -85,7 +83,7 @@ class Resume extends Component {
                     <Skills
                       skill="React"
                       progress={25}
-                      />
+                      /> */}
 
 
           </Cell>
