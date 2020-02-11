@@ -63,7 +63,7 @@ class Contact extends Component {
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent className="list-content"
+                  <ListItemContent id="list-content-address"
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-home" aria-hidden="true" />
