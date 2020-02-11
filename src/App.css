@@ -60,7 +60,7 @@
 }
 
 .contact-grid {
-  text-align: center;
+  text-align: left;
   justify-content: center;
   width: 80%;
   height: 550px;
@@ -89,6 +89,10 @@
   padding-right: 2rem;
 }
 
+.list-content{
+  /* width: 20%; */
+}
+#list-content-address{}
 /* contact page css */
 
 .avatar-img {
