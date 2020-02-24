@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-    <Layout>
+    <Layout backgroundColor="#CFB87C">
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Ritchie Maes</Link>} scroll>
             <Navigation>
                 {/* <Link to="/resume">Resume</Link> */}

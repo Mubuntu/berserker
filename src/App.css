@@ -126,7 +126,7 @@ body::-webkit-scrollbar {
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 1px none white;
   width: 50%;
   margin: auto;
 }
@@ -137,12 +137,17 @@ body::-webkit-scrollbar {
   padding: 1em;
 }
 
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
+@media screen and (max-width:  600px){
+  .social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+    right: 4%;
+    position: relative;
+  }
 }
+
+
 
 .social-links i {
   color: white;
