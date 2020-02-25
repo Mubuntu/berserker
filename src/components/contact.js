@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import berserker_logo from "../img/zwart@4x.png";
+import berserker_logo from "../img/logox4.png";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
 class Contact extends Component {
@@ -16,9 +16,9 @@ class Contact extends Component {
             <h2 id="name-title-main" className="header-title">
               Ritchie Maes
             </h2>
-            <h2 id="name-title-sub" className="header-title">
+            {/* <h2 id="name-title-sub" className="header-title">
               Diëtist & Fitnesscoach
-            </h2>
+            </h2> */}
           </Cell>
           <Cell col={4} xs={1}>
             <img
@@ -46,7 +46,7 @@ class Contact extends Component {
                   >
                     <i
                       className="fa fa-user"
-                      style={{ color: "#3c3c3b", backgroundColor: "#CFB87C" }}
+                      // style={{ color: "#3c3c3b", backgroundColor: "#CFB87C" }}
                       aria-hidden="true"
                     />
                     Enkel op afspraak
@@ -55,11 +55,11 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{ fontSize: "30px", fontFamily: "Anton" ,  color:"#cfb87c"}}
                   >
                     <i
                       className="fa fa-phone"
-                      style={{ color: "#3c3c3b", backgroundColor: "#CFB87C" }}
+                      // style={{ color: "#3c3c3b", backgroundColor: "#CFB87C" }}
                       aria-hidden="true"
                     />
                     +32 493 73 58 30
@@ -74,7 +74,7 @@ class Contact extends Component {
                     <i
                       className="fa fa-envelope"
                       aria-hidden="true"
-                      style={{ color: "#3c3c3b", backgroundColor: "#CFB87C" }}
+                      // style={{ color: "#3c3c3b", backgroundColor: "#CFB87C" }}
                     />
                     dietistritchiemaes@outlook.com
                   </ListItemContent>
@@ -88,7 +88,7 @@ class Contact extends Component {
                     <i
                       className="fa fa-home"
                       aria-hidden="true"
-                      style={{ color: "#3c3c3b", backgroundColor: "#CFB87C" }}
+                      // style={{ color: "#3c3c3b", backgroundColor: "#CFB87C" }}
                     />
                     bramestraat 18 4413EX Krabbendijke
                   </ListItemContent>
