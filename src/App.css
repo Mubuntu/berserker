@@ -12,12 +12,7 @@
   background: linear-gradient(to right, #cfb87c, #3c3c3b);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-body {
-  scrollbar-width: none;
-}
-body::-webkit-scrollbar {
-  display: none;
-}
+
 .landing-grid {
   background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -137,17 +132,18 @@ body::-webkit-scrollbar {
   padding: 1em;
 }
 
-@media screen and (max-width:  600px){
+@media screen and (max-width: 700px) {
+  body {
+    overflow-y: scroll;
+    height: 100%;
+  }
   .social-links i {
     color: white;
     font-size: 5em;
     padding: 8px;
-    right: 20%;
-    position: relative;
+    margin: 0 auto;
   }
 }
-
-
 
 .social-links i {
   color: white;
