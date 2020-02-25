@@ -41,7 +41,7 @@ class Contact extends Component {
                     style={{
                       fontSize: "30px",
                       fontFamily: "Anton",
-                      color: "black"
+                      color: "#cfb87c"
                     }}
                   >
                     <i
@@ -55,7 +55,11 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" ,  color:"#cfb87c"}}
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      color: "#cfb87c"
+                    }}
                   >
                     <i
                       className="fa fa-phone"
@@ -69,7 +73,11 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     className="list-content"
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      color: "#cfb87c"
+                    }}
                   >
                     <i
                       className="fa fa-envelope"
@@ -83,7 +91,11 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     id="list-content-address"
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Anton",
+                      color: "#cfb87c"
+                    }}
                   >
                     <i
                       className="fa fa-home"
