@@ -10,7 +10,7 @@ const App = props => {
 
   return (
     <div className="demo-big-content">
-      <Layout backgroundColor="#CFB87C">
+      <Layout backgroundColor="red">
         <Header
           className="header-color"
           title={

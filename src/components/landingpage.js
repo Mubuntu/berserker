@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
 
-class Landing extends Component {
-  render() {
+const Landing  = (props)=> {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
@@ -15,7 +14,7 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>Dietist Ritchie Maes</h1>
+              <h1>Diëtist Ritchie Maes</h1>
 
             <hr/>
 
@@ -45,11 +44,28 @@ class Landing extends Component {
 
         </div>
             </div>
+
           </Cell>
+          <Cell col={6}>
+            <h3>About me</h3>
+            <p>
+            Als diëtist zijnde, heb ik mijn opleiding genoten aan de AP Hogeschool te Antwerpen. Naast een specialisatie in Klinische & Algemene Diëtiek, ben ik ook gespecialiseerd in Sportdiëtiek. Dat wil zeggen dat zo goed als iedereen bij mij terecht kan. Heb je problemen met je gezondheid of lopen je sportprestaties niet zoals je had gehoopt? Maak dan kennis met mijn persoonlijke en klantvriendelijke aanpak die ik al van 2016 hanteer.
+            </p>
+          </Cell>
+          <Cell col={6}>
+            <h3>AFSPRAAK MAKEN</h3>
+            <p>Indien je geïnteresseerd bent in een afspraak, kan je hieronder 4 blokken vinden waarin we samen kunnen zitten. Bekijk in welk blok je beschikbaar bent en aarzel niet om me te contacteren.</p>
+            <p>Maandag 18u00 – 22u00</p>
+            <p>Woensdag 16u30 – 21u00 </p>
+            <p>Vrijdag 09u00 – 16u00</p>
+            <p>Vrijdag 09u00 – 16u00</p>
+          </Cell> 
+            {/* interactive links maken of een calend er waarin je bvb na het klikken automatisch een mail verzend */}
+
         </Grid>
       </div>
     )
   }
-}
+
 
 export default Landing;
